@@ -1,0 +1,28 @@
+.increment{
+    background: #259603;
+    
+}
+
+.decrement{
+    background: #e41313;
+    
+}
+.increment,.refresh,.decrement{
+    flex: 1;
+    justify-content: center;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.refresh{
+    background: #f7c337;
+    color: black;
+}
+.buttons{
+    display: flex;
+}
+.fa{
+    font-size: 25px;
+}
